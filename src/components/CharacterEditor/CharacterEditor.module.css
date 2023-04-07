@@ -5,6 +5,7 @@
 
 .maxWidthWrapper {
   width: 100%;
+  position: relative;
 }
 
 .header {
@@ -31,6 +32,14 @@
   left: 55%;
   bottom: 5%;
   min-height: 500px;
+}
+
+.perspectiveBackdrop {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  top: 60%;
 }
 
 .controlColumn {
